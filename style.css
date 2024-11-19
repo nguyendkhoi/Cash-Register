@@ -1,0 +1,122 @@
+body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.cash-machine > *{
+    border-radius: 10px;    
+}
+
+form > *{
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+
+
+.cash-machine {
+    width: 600px;
+    height: 550px;
+    display: flex;        
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+
+
+.butoon{
+    width: 30%;
+}
+
+.btn {
+    height: 40px;
+    width: 50px;
+    margin: 10px;
+}
+
+.key-board {
+    height: 65%;
+    text-align: center;
+    align-items: center;
+    border: 2px solid black;
+    width: 100%;
+}
+
+.butoon {
+    display: inline-block;
+    width: 40%;
+}
+
+.price-screen {
+    width: 30%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.conecter {
+    height: 50px;
+    width: 30px;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+}
+
+.body {
+    height: 246px;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+  
+.body > p:first-child {
+    grid-column: 1 / span 2;
+    grid-row: 1;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: large;
+}
+
+.body > p {
+    margin: 10px;
+}
+
+.screen {
+    height: 50%;
+    width: 100%;
+    border: 2px solid black;
+}
+
+.screen p {
+    margin: auto;
+    padding: 10px;
+}
+
+.buttom {
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid black;
+    margin-bottom: 10px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttom > button {
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+}
